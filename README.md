@@ -1,2 +1,9 @@
 # DUI
-DUI is a high-performance, raw-terminal, single-file TUI framework for Python 3.6+ on Unix-like systems. It utilizes a custom diffing renderer and declarative component model for smooth, flicker-free UIs without relying on Curses.
+DUI is a high-performance, raw-terminal, single-file TUI framework for Python 3.6+ on Unix-like systems. It utilizes a custom diffing renderer and declarative component model for smooth, flicker-free UIs without relying on Curses, More Below.
+DUI’s a lean, standalone TUI toolkit built for Python 3.6+, mainly on Unix-style OSes - think Linux, macOS, or BSD. It runs fast using direct terminal output without leaning on old tools such as Curses. Instead, it uses a clean setup where UI parts are defined up front, backed by smart updates through change diffs and dual screen buffers. Layouts adapt smoothly thanks to a flex-based design approach, while keyboard navigation stays sharp with fine-grained control. Inside, you’ll find solid interface elements ready for real-world use, along with timing helpers and motion support baked in. The whole thing rolls under GPLv3 (or newer), so feel free to share or tweak it - it's open forever - but no guarantees come with it.
+
+======================================================
+
+GNU GENERAL PUBLIC LICENSE, Version 3
+
+This program’s free stuff - you’re allowed to share it otherwise change it if you follow the rules in the GNU General Public License put out by the Free Software Foundation, version 3 or whatever newer one comes along. The app gets passed around hoping folks find it helpful though there’s zero guarantee behind it - no promises about working right or fitting your needs. Check the GNU license file if you want the full story. A copy of that GNU license likely came with the program when you got it. If it didn’t show up, head over to https://www.gnu.org/licenses/ instead.
