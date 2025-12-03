@@ -1,7 +1,6 @@
 # DUI
-DUI is a high-performance, raw-terminal, single-file DUI framework for Python 3.6+ on Unix-like systems. It utilizes a custom diffing renderer and declarative component model for smooth, flicker-free UIs without relying on Curses, More Below.
+Dynamic User Interface (DUI) is a high-performance, raw-terminal, single-file DUI framework for Python 3.6+ on Unix-like systems. It utilizes a custom diffing renderer and declarative component model for smooth, flicker-free UIs without relying on Curses, More Below.
 DUI’s a lean, standalone DUI toolkit built for Python 3.6+, mainly on Unix-style OSes - think Linux, macOS, or BSD. It runs fast using direct terminal output without leaning on old tools such as Curses. Instead, it uses a clean setup where UI parts are defined up front, backed by smart updates through change diffs and dual screen buffers. Layouts adapt smoothly thanks to a flex-based design approach, while keyboard navigation stays sharp with fine-grained control. Inside, you’ll find solid interface elements ready for real-world use, along with timing helpers and motion support baked in. The whole thing rolls under GPLv3 (or newer), so feel free to share or tweak it - it's open forever - but no guarantees come with it.
-It also stands for Dynamic User Interface.
 ======================================================
 
 GNU GENERAL PUBLIC LICENSE, Version 3
